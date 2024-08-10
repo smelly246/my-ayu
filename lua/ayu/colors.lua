@@ -4,22 +4,22 @@ local colors = {
 }
 
 local scheme = {
-black = '#000000',
-white = '#b0b0b0',
-red = '#ff3333',
-green = '#b8cc52',
-orange = '#ff8f40',
-yellow = '#e7c547',
-blue = '#36a3d9',
-purple = '#f07178',
-cyan = '#95e6cb',
-beige = '#ffee99',
-light-black = '#323232',
-light-white = '#ffffff',
-light-orange = '#f29668',
-light-red = '#ff6565',
-mauve = '#cb9ff8',
-dark-green = '#92a824',
+    black = '#000000',
+    white = '#b0b0b0',
+    red = '#ff3333',
+    green = '#b8cc52',
+    orange = '#ff8f40',
+    yellow = '#e7c547',
+    blue = '#36a3d9',
+    purple = '#f07178',
+    cyan = '#95e6cb',
+    beige = '#ffee99',
+    light-black = '#323232',
+    light-white = '#ffffff',
+    light-orange = '#f29668',
+    light-red = '#ff6565',
+    mauve = '#cb9ff8',
+    dark-green = '#92a824',
 }
 
 --- Generate colors based `vim.o.background` and a variant.
