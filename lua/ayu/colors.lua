@@ -3,6 +3,25 @@ local colors = {
   black = '#000000',
 }
 
+local scheme = {
+black = '#000000',
+white = '#b0b0b0',
+red = '#ff3333',
+green = '#b8cc52',
+orange = '#ff8f40',
+yellow = '#e7c547',
+blue = '#36a3d9',
+purple = '#f07178',
+cyan = '#95e6cb',
+beige = '#ffee99',
+light-black = '#323232',
+light-white = '#ffffff',
+light-orange = '#f29668',
+light-red = '#ff6565',
+mauve = '#cb9ff8',
+dark-green = '#92a824',
+}
+
 --- Generate colors based `vim.o.background` and a variant.
 ---@param mirage boolean: Whether to use `mirage` variant when `vim.o.background` is dark.
 function colors.generate(mirage)
@@ -49,24 +68,6 @@ function colors.generate(mirage)
       colors.fg_idle = '#607080'
       colors.warning = '#FFA759'
     else
-      local scheme = {
-        black = '#000000',
-        white = '#b0b0b0',
-        red = '#ff3333',
-        green = '#b8cc52',
-        orange = '#ff8f40',
-        yellow = '#e7c547',
-        blue = '#36a3d9',
-        purple = '#f07178',
-        cyan = '#95e6cb',
-        beige = '#ffee99',
-        light-black = '#323232',
-        light-white = '#ffffff',
-        light-orange = '#f29668',
-        light-red = '#ff6565',
-        mauve = '#cb9ff8',
-        dark-green = '#92a824'
-      }
       colors.accent = '#E6B450'
       colors.bg = scheme.black
       colors.fg = scheme.white
