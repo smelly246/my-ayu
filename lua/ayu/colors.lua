@@ -49,43 +49,26 @@ function colors.generate(mirage)
       colors.fg_idle = '#607080'
       colors.warning = '#FFA759'
     else
-        local scheme = {
-            black = '#000000',
-            white = '#b0b0b0',
-            red = '#ff3333',
-            green = '#b8cc52',
-            orange = '#ff8f40',
-            yellow = '#e7c547',
-            blue = '#36a3d9',
-            purple = '#f07178',
-            cyan = '#95e6cb',
-            beige = '#ffee99',
-            lightBlack = '#323232',
-            lightOrange = '#f29668',
-            lightRed = '#ff6565',
-            mauve = '#cb9ff8',
-            darkGreen = '#92a824',
-        }
       colors.accent = '#E6B450'
-      colors.bg = scheme.black
-      colors.fg = scheme.white
-      colors.ui = scheme.lightBlack
+      colors.bg = '#212121'
+      colors.fg = '#b0b0b0'
+      colors.ui = '#595959'
 
       colors.tag = '#39BAE6'
       colors.func = '#FFB454'
-      colors.entity = scheme.blue
-      colors.string = scheme.green
-      colors.regexp = scheme.cyan
-      colors.markup = scheme.purple
-      colors.keyword = scheme.yellow
+      colors.entity = '#59C2FF'
+      colors.string = '#C2D94C'
+      colors.regexp = '#95E6CB'
+      colors.markup = '#F07178'
+      colors.keyword = '#FF8F40'
       colors.special = '#E6B673'
       colors.comment = '#6b6b6b'
-      colors.constant = scheme.beige
-      colors.operator = scheme.orange
-      colors.error = scheme.red
-      colors.lsp_parameter = scheme.mauve
+      colors.constant = '#FFEE99'
+      colors.operator = '#F29668'
+      colors.error = '#FF3333'
+      colors.lsp_parameter = '#CB9FF8'
 
-      colors.line = '#040404'
+      colors.line = '#050505'
       colors.panel_bg = '#121212'
       colors.panel_shadow = '#050505'
       colors.panel_border = '#000000'
@@ -97,15 +80,16 @@ function colors.generate(mirage)
       colors.guide_active = '#424242'
       colors.guide_normal = '#2b2b2b'
 
-      colors.vcs_added = scheme.darkGreen
+      colors.vcs_added = '#91B362'
       colors.vcs_modified = '#6994BF'
-      colors.vcs_removed = scheme.lightRed
+      colors.vcs_removed = '#D96C75'
 
       colors.vcs_added_bg = '#1c1c1c'
       colors.vcs_removed_bg = '#262626'
 
-      colors.fg_idle = '#3E4B59'
-      colors.warning = scheme.orange
+      colors.fg_idle = '#4d4d4d'
+      colors.warning = '#FF8F40'
+
     end
   else
     colors.accent = '#FF9940'

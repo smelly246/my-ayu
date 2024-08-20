@@ -1,6 +1,15 @@
-# Neovim Ayu
+# My Ayu
 
-A colorscheme for Neovim reimplemented in lua from [ayu-vim](https://github.com/Luxed/ayu-vim).
+A colorscheme for Neovim based on [ayu](https://github.com/Shatur/neovim-ayu), in turn reimplemented in lua from [ayu-vim](https://github.com/Luxed/ayu-vim).
+
+Well, technically, the light and mirage schemes are unchanged, because I am not willing to put in the work for schemes I won't use lol
+
+## Philosophy
+
+1. **Gray for gray.** When the blues get pale/desaturated enough just make it black. I enjoy shades of grey, because they don't clash with black like dark-blue and dark-brown do.
+2. **Warm over cold.** Prefer warm hues over cold. Green becomes yellow-green, purple becomes red-purple, etc.
+3. **Rainbow rules.** Give me a wide range of colors pls
+4. **Contrast!** I don't want my eyes to bleed but i like colors so please use them
 
 ## Screenshots
 
