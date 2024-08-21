@@ -50,9 +50,9 @@ function colors.generate(mirage)
       colors.warning = '#FFA759'
     else
       colors.accent = '#E6B450'
-      colors.bg = '#212121'
-      colors.fg = '#b0b0b0'
-      colors.ui = '#595959'
+      colors.bg = '#0e0e0e' -- greyscale
+      colors.fg = '#b0b0b0' -- greyscale
+      colors.ui = '#595959' -- greyscale
 
       colors.tag = '#39BAE6'
       colors.func = '#FFB454'
@@ -62,32 +62,32 @@ function colors.generate(mirage)
       colors.markup = '#F07178'
       colors.keyword = '#FF8F40'
       colors.special = '#E6B673'
-      colors.comment = '#6b6b6b'
+      colors.comment = '#6b6b6b' -- greyscale
       colors.constant = '#FFEE99'
       colors.operator = '#F29668'
       colors.error = '#FF3333'
       colors.lsp_parameter = '#CB9FF8'
 
-      colors.line = '#050505'
-      colors.panel_bg = '#121212'
-      colors.panel_shadow = '#050505'
-      colors.panel_border = '#000000'
-      colors.gutter_normal = '#3b3b3b'
-      colors.gutter_active = '#525252'
-      colors.selection_bg = '#383838'
-      colors.selection_inactive = '#262626'
-      colors.selection_border = '#424242'
-      colors.guide_active = '#424242'
-      colors.guide_normal = '#2b2b2b'
+      colors.line = '#050505' -- greyscale
+      colors.panel_bg = '#121212' -- greyscale
+      colors.panel_shadow = '#050505' -- greyscale
+      colors.panel_border = '#000000' -- greyscale
+      colors.gutter_normal = '#3b3b3b' -- greyscale
+      colors.gutter_active = '#525252' -- greyscale
+      colors.selection_bg = '#383838' -- greyscale
+      colors.selection_inactive = '#262626' -- greyscale
+      colors.selection_border = '#424242' -- greyscale
+      colors.guide_active = '#424242' -- greyscale
+      colors.guide_normal = '#2b2b2b' -- greyscale
 
       colors.vcs_added = '#91B362'
       colors.vcs_modified = '#6994BF'
       colors.vcs_removed = '#D96C75'
 
-      colors.vcs_added_bg = '#1c1c1c'
-      colors.vcs_removed_bg = '#262626'
+      colors.vcs_added_bg = '#1c1c1c' -- greyscale
+      colors.vcs_removed_bg = '#262626' -- greyscale
 
-      colors.fg_idle = '#4d4d4d'
+      colors.fg_idle = '#4d4d4d' -- greyscale
       colors.warning = '#FF8F40'
 
     end
