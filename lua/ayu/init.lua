@@ -118,6 +118,12 @@ local function set_groups()
     -- Markdown.
     markdownCode = { fg = colors.special },
 
+    -- HTML
+    htmlTag = {fg = colors.comment},
+    htmlEndTag = {fg = colors.comment},
+    htmlTagName = {fg = colors.entity},
+    htmlArg = {fg = colors.func},
+
     -- TreeSitter.
     ['@property'] = { fg = colors.tag },
     ['@tag'] = { fg = colors.keyword },
