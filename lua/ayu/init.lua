@@ -118,12 +118,6 @@ local function set_groups()
     -- Markdown.
     markdownCode = { fg = colors.special },
 
-    -- HTML
-    htmlTag = {fg = colors.comment},
-    htmlEndTag = {fg = colors.comment},
-    htmlTagName = {fg = colors.entity},
-    htmlArg = {fg = colors.func},
-
     -- TreeSitter.
     ['@property'] = { fg = colors.tag },
     ['@tag'] = { fg = colors.keyword },
@@ -190,6 +184,13 @@ local function set_groups()
     CmpItemKindOperator = { fg = colors.operator },
     CmpItemKindTypeParameter = { fg = colors.tag },
     CmpItemMenu = { fg = colors.comment },
+
+    -- HTML (trying after LSP)
+    htmlTag = {fg = colors.comment},
+    htmlEndTag = {fg = colors.comment},
+    htmlDelimiter = {fg = colors.comment},
+    htmlTagName = {fg = colors.entity},
+    htmlArg = {fg = colors.func},
 
     -- Word under cursor.
     CursorWord = { bg = colors.selection_inactive },
