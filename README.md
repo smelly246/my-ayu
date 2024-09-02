@@ -15,6 +15,10 @@ Well, technically, the light and mirage schemes are unchanged, because I am not 
 
 ![dark](screenshots/dark.png)
 
+![dark html customization](screenshots/html-highlights.png)
+
+mirage and light are unchanged from origin.
+
 ![mirage](screenshots/mirage.png)
 
 ![light](screenshots/light.png)
