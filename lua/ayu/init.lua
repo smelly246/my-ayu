@@ -35,7 +35,7 @@ local function set_groups()
     ColorColumn = { bg = colors.line },
     Cursor = { fg = colors.bg, bg = colors.fg },
     CursorColumn = { bg = colors.line },
-    CursorLine = { bg = colors.line },
+    CursorLine = { bg = colors.guide_active },
     CursorLineNr = { fg = colors.accent, bg = colors.line },
     LineNr = { fg = colors.guide_normal },
 
@@ -104,6 +104,10 @@ local function set_groups()
     DiffText = { bg = colors.gutter_normal },
     DiffChange = { bg = colors.selection_inactive },
 
+    -- Lazy
+    LazySpecial = {fg = colors.string},
+    LazyLocal = {fg = colors.entity},
+    
     -- LSP.
     DiagnosticError = { fg = colors.error },
     DiagnosticWarn = { fg = colors.keyword },
