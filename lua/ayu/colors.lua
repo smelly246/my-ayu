@@ -77,8 +77,8 @@ function colors.generate(mirage)
       colors.selection_bg = '#383838' -- greyscale
       colors.selection_inactive = '#262626' -- greyscale
       colors.selection_border = '#424242' -- greyscale
-      colors.guide_active = '#424242' -- greyscale
-      colors.guide_normal = '#2b2b2b' -- greyscale
+      colors.guide_active = '#626262' -- greyscale
+      colors.guide_normal = '#525252' -- greyscale
 
       colors.vcs_added = '#91B362'
       colors.vcs_modified = '#6994BF'
