@@ -38,6 +38,7 @@ local function set_groups()
     CursorLine = { bg = colors.gutter_normal },
     CursorLineNr = { bold = true },
     LineNr = { fg = colors.guide_active },
+    Bold = {bold = true},
 
     Directory = { fg = colors.func },
     ErrorMsg = { fg = colors.error },
@@ -105,8 +106,11 @@ local function set_groups()
     DiffChange = { bg = colors.selection_inactive },
 
     -- Lazy
-    LazySpecial = {fg = colors.string},
+    LazyH1 = {fg = colors.entity},
     LazyLocal = {fg = colors.entity},
+    LazyReasonStart = {fg = colors.string},
+    LazyReasonPlugin = {fg = colors.comment},
+    LazyReasonKeys = {fg = colors.func},
     
     -- LSP.
     DiagnosticError = { fg = colors.error },
