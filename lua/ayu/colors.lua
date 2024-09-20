@@ -55,7 +55,7 @@ function colors.generate(mirage)
       colors.ui = '#5e5e5e' -- greyscale
 
       colors.tag = '#39BAE6'
-      colors.func = '#FFB454'
+      colors.func = '#E6B450'
       colors.entity = '#59C2FF'
       colors.string = '#AAD94C'
       colors.regexp = '#95E6CB'
@@ -72,9 +72,9 @@ function colors.generate(mirage)
       colors.panel_bg = '#141414' -- greyscale
       colors.panel_shadow = '#080808' -- greyscale
       colors.panel_border = '#000000' -- greyscale
-      colors.gutter_normal = '#4d4d4d' -- greyscale
+      colors.gutter_normal = '#3b3b3b' -- greyscale
       colors.gutter_active = '#6b6b6b' -- greyscale
-      colors.selection_bg = '#3b3b3b' -- greyscale
+      colors.selection_bg = '#4d4d4d' -- greyscale
       colors.selection_inactive = '#212121' -- greyscale
       colors.selection_border = '#424242' -- greyscale
       colors.guide_active = '#424242' -- greyscale
@@ -98,7 +98,7 @@ function colors.generate(mirage)
     colors.ui = '#8A9199'
 
     colors.tag = '#55B4D4'
-    colors.func = '#F2AE49'
+    colors.func = '#E6B450'
     colors.entity = '#399EE6'
     colors.string = '#86B300'
     colors.regexp = '#4CBF99'

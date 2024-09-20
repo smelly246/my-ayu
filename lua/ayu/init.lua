@@ -35,9 +35,9 @@ local function set_groups()
     ColorColumn = { bg = colors.line },
     Cursor = { fg = colors.bg, bg = colors.fg },
     CursorColumn = { bg = colors.line },
-    CursorLine = { bg = colors.gutter_normal },
+    CursorLine = { bg = colors.guide_normal },
     CursorLineNr = { bold = true },
-    LineNr = { fg = colors.guide_active },
+    LineNr = { fg = colors.fg_idle },
     Bold = {bold = true},
 
     Directory = { fg = colors.func },
@@ -70,7 +70,7 @@ local function set_groups()
     TabLineFill = { fg = colors.fg, bg = colors.panel_border },
     TabLineSel = { fg = colors.fg, bg = colors.bg },
     Title = { fg = colors.keyword },
-    Visual = { bg = colors.selection_inactive },
+    Visual = { bg = colors.selection_bg },
     WarningMsg = { fg = colors.warning },
 
     Comment = { fg = colors.comment, italic = true },
